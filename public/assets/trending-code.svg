@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="tr-cd-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#022C22"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+    <filter id="tr-cd-drop" x="32" y="24" width="112" height="124" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#022C22" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#tr-cd-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#059669" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#tr-cd-drop)">
+    <!-- Terminal / Script frame -->
+    <rect x="42" y="42" width="92" height="92" rx="12" fill="#0B132B" stroke="#10B981" stroke-width="1.5"/>
+
+    <!-- Header bar -->
+    <path d="M42 52C42 46.4772 46.4772 42 52 42H124C129.523 42 134 46.4772 134 52V55H42V52Z" fill="#1C2541"/>
+    <circle cx="52" cy="48" r="2.5" fill="#EF4444"/>
+    <circle cx="60" cy="48" r="2.5" fill="#F59E0B"/>
+    <circle cx="68" cy="48" r="2.5" fill="#10B981"/>
+
+    <!-- Shopping Cart Wireframe -->
+    <path d="M54 66H62L70 96H108L114 74H67" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="75" cy="105" r="4" fill="#34D399"/>
+    <circle cx="103" cy="105" r="4" fill="#34D399"/>
+
+    <!-- Code Brackets < / > -->
+    <path d="M82 78L77 83L82 88" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M96 78L101 83L96 88" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="91" y1="76" x2="87" y2="90" stroke="#6EE7B7" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- ACTIVE Badge -->
+    <rect x="94" y="30" width="44" height="16" rx="8" fill="#10B981"/>
+    <text x="116" y="41.5" font-family="'Inter', sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">ACTIVE</text>
+  </g>
+</svg>

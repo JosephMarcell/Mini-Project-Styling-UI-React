@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="tr-ui-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2E1065"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="tr-ui-bar" x1="76" y1="80" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <filter id="tr-ui-drop" x="32" y="32" width="112" height="116" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#1E1B4B" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#tr-ui-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#7C3AED" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#tr-ui-drop)">
+    <!-- Dashboard Screen -->
+    <rect x="40" y="42" width="96" height="92" rx="12" fill="#0F172A" stroke="#8B5CF6" stroke-width="1.5"/>
+
+    <!-- Dashboard Top Bar -->
+    <rect x="48" y="50" width="30" height="5" rx="2.5" fill="#334155"/>
+    <rect x="96" y="48" width="32" height="9" rx="4.5" fill="#8B5CF6"/>
+    <text x="112" y="55" font-family="'Inter', sans-serif" font-size="6" font-weight="800" fill="#FFFFFF" text-anchor="middle">+34%</text>
+
+    <!-- Sidebar Cards -->
+    <rect x="48" y="60" width="20" height="64" rx="5" fill="#1E293B"/>
+    <rect x="52" y="66" width="12" height="3" rx="1.5" fill="#8B5CF6"/>
+    <rect x="52" y="73" width="12" height="3" rx="1.5" fill="#475569"/>
+    <rect x="52" y="80" width="12" height="3" rx="1.5" fill="#475569"/>
+
+    <!-- Analytics Chart Area -->
+    <rect x="72" y="60" width="56" height="64" rx="6" fill="#1E293B"/>
+
+    <!-- Bar Chart Columns -->
+    <rect x="76" y="94" width="5" height="24" rx="2.5" fill="#6366F1"/>
+    <rect x="85" y="84" width="5" height="34" rx="2.5" fill="#8B5CF6"/>
+    <rect x="94" y="72" width="5" height="46" rx="2.5" fill="url(#tr-ui-bar)"/>
+    <rect x="103" y="88" width="5" height="30" rx="2.5" fill="#EC4899"/>
+    <rect x="112" y="78" width="5" height="40" rx="2.5" fill="#F43F5E"/>
+
+    <!-- Growth Curve -->
+    <path d="M76 92C86 86 96 68 114 70" stroke="#34D399" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="114" cy="70" r="3" fill="#34D399"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="tr-md-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#450A0A"/>
+      <stop offset="100%" stop-color="#7F1D1D"/>
+    </linearGradient>
+    <filter id="tr-md-drop" x="32" y="24" width="112" height="124" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#tr-md-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#DC2626" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#tr-md-drop)">
+    <!-- Clapperboard Body -->
+    <rect x="40" y="42" width="96" height="92" rx="12" fill="#18181B" stroke="#F43F5E" stroke-width="1.5"/>
+
+    <!-- Clapperboard Top Stripe -->
+    <g>
+      <path d="M40 52C40 46.4772 44.4772 42 50 42H126C131.523 42 136 46.4772 136 52V56H40V52Z" fill="#27272A"/>
+      <polygon points="46,42 54,42 48,56 40,56" fill="#F43F5E"/>
+      <polygon points="64,42 72,42 66,56 58,56" fill="#F43F5E"/>
+      <polygon points="82,42 90,42 84,56 76,56" fill="#F43F5E"/>
+      <polygon points="100,42 108,42 102,56 94,56" fill="#F43F5E"/>
+      <polygon points="118,42 126,42 120,56 112,56" fill="#F43F5E"/>
+    </g>
+
+    <!-- Vinyl Disc Graphic -->
+    <circle cx="88" cy="80" r="16" fill="#27272A" stroke="#3F3F46" stroke-width="1.5"/>
+    <circle cx="88" cy="80" r="10" fill="#09090B"/>
+    <circle cx="88" cy="80" r="4" fill="#F43F5E"/>
+
+    <!-- Waveform Frequency Bars -->
+    <rect x="48" y="112" width="3.5" height="14" rx="1.75" fill="#FB7185"/>
+    <rect x="55" y="106" width="3.5" height="20" rx="1.75" fill="#F43F5E"/>
+    <rect x="62" y="102" width="3.5" height="24" rx="1.75" fill="#E11D48"/>
+    <rect x="69" y="108" width="3.5" height="18" rx="1.75" fill="#F43F5E"/>
+    <rect x="76" y="114" width="3.5" height="12" rx="1.75" fill="#FB7185"/>
+    <rect x="83" y="104" width="3.5" height="22" rx="1.75" fill="#FDA4AF"/>
+    <rect x="90" y="100" width="3.5" height="26" rx="1.75" fill="#FFFFFF"/>
+    <rect x="97" y="104" width="3.5" height="22" rx="1.75" fill="#FDA4AF"/>
+    <rect x="104" y="108" width="3.5" height="18" rx="1.75" fill="#F43F5E"/>
+    <rect x="111" y="102" width="3.5" height="24" rx="1.75" fill="#E11D48"/>
+    <rect x="118" y="108" width="3.5" height="18" rx="1.75" fill="#F43F5E"/>
+    <rect x="125" y="112" width="3.5" height="14" rx="1.75" fill="#FB7185"/>
+
+    <!-- 4K SFX Badge -->
+    <rect x="94" y="28" width="42" height="16" rx="8" fill="#E11D48"/>
+    <text x="115" y="39.5" font-family="'Inter', sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">4K SFX</text>
+  </g>
+</svg>

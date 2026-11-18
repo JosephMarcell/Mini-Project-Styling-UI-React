@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="tr-ds-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+    <linearGradient id="tr-ds-card" x1="50" y1="60" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <filter id="tr-ds-drop" x="34" y="30" width="112" height="116" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#500724" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#tr-ds-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#DB2777" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#tr-ds-drop)">
+    <!-- Back Story Card (Angled) -->
+    <rect x="74" y="36" width="54" height="84" rx="8" transform="rotate(8 74 36)" fill="#FFFFFF" fill-opacity="0.25" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+
+    <!-- Front Social Post Card -->
+    <rect x="44" y="46" width="80" height="82" rx="12" fill="#FFFFFF"/>
+
+    <!-- Post Header (Avatar + User) -->
+    <circle cx="56" cy="58" r="5" fill="#F43F5E"/>
+    <rect x="65" y="56" width="26" height="4" rx="2" fill="#334155"/>
+
+    <!-- Post Graphic Area -->
+    <rect x="50" y="68" width="68" height="42" rx="6" fill="url(#tr-ds-card)"/>
+    <circle cx="64" cy="80" r="4" fill="#FFFFFF" fill-opacity="0.8"/>
+    <polygon points="56,100 70,86 82,94 92,88 106,100" fill="#FFFFFF" fill-opacity="0.9"/>
+
+    <!-- Floating Heart Badge -->
+    <g transform="translate(104, 98)">
+      <circle cx="13" cy="13" r="13" fill="#EF4444"/>
+      <path d="M13 18L11.8 16.9C7.6 13.1 4.8 10.6 4.8 7.5C4.8 5 6.8 3 9.3 3C10.7 3 12.1 3.7 13 4.7C13.9 3.7 15.3 3 16.7 3C19.2 3 21.2 5 21.2 7.5C21.2 10.6 18.4 13.1 14.2 16.9L13 18Z" transform="translate(0, 0.5) scale(0.9)" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Post Caption -->
+    <rect x="50" y="116" width="44" height="4" rx="2" fill="#64748B"/>
+  </g>
+</svg>

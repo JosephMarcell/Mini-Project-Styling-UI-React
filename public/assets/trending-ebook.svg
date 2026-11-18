@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="tr-eb-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="tr-eb-book" x1="48" y1="42" x2="130" y2="134" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="tr-eb-drop" x="34" y="26" width="108" height="122" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#tr-eb-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#4338CA" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#tr-eb-drop)">
+    <!-- 3D Book Base -->
+    <rect x="46" y="42" width="84" height="92" rx="8" fill="#0C4A6E"/>
+    <rect x="50" y="42" width="80" height="92" rx="6" fill="url(#tr-eb-book)"/>
+
+    <!-- Spine line -->
+    <line x1="58" y1="42" x2="58" y2="134" stroke="#BAE6FD" stroke-width="1.5" stroke-dasharray="2 2"/>
+
+    <!-- Code Badge Emblem on Cover -->
+    <circle cx="90" cy="74" r="16" fill="#0F172A" fill-opacity="0.6"/>
+    <path d="M84 70L80 74L84 78" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M96 70L100 74L94 78" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="91" y1="67" x2="89" y2="81" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Title Mockup -->
+    <rect x="66" y="96" width="48" height="5" rx="2.5" fill="#FFFFFF"/>
+
+    <!-- 5 Stars Rating -->
+    <g transform="translate(68, 110)">
+      <polygon points="4,0 5.2,2.8 8,3.1 5.9,5 6.5,7.8 4,6.4 1.5,7.8 2.1,5 0,3.1 2.8,2.8" fill="#FBBF24"/>
+      <polygon points="13,0 14.2,2.8 17,3.1 14.9,5 15.5,7.8 13,6.4 10.5,7.8 11.1,5 9,3.1 11.8,2.8" fill="#FBBF24"/>
+      <polygon points="22,0 23.2,2.8 26,3.1 23.9,5 24.5,7.8 22,6.4 19.5,7.8 20.1,5 18,3.1 20.8,2.8" fill="#FBBF24"/>
+      <polygon points="31,0 32.2,2.8 35,3.1 32.9,5 33.5,7.8 31,6.4 28.5,7.8 29.1,5 27,3.1 29.8,2.8" fill="#FBBF24"/>
+      <polygon points="40,0 41.2,2.8 44,3.1 41.9,5 42.5,7.8 40,6.4 37.5,7.8 38.1,5 36,3.1 38.8,2.8" fill="#FBBF24"/>
+    </g>
+
+    <!-- HOT Tag Ribbon -->
+    <rect x="102" y="32" width="34" height="15" rx="7.5" fill="#EF4444"/>
+    <text x="119" y="43" font-family="'Inter', sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">HOT</text>
+  </g>
+</svg>

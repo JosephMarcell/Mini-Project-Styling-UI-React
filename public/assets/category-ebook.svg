@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="cat-eb-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="cat-eb-drop" x="38" y="34" width="100" height="114" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#064E3B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#cat-eb-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#cat-eb-drop)">
+    <!-- Book Back / Spine -->
+    <rect x="52" y="44" width="72" height="88" rx="8" fill="#047857"/>
+    <!-- Book Cover -->
+    <rect x="56" y="44" width="68" height="88" rx="6" fill="#FFFFFF"/>
+    <!-- Page Inner Area -->
+    <rect x="60" y="50" width="60" height="76" rx="4" fill="#F0FDF4"/>
+
+    <!-- Gold Bookmark Ribbon -->
+    <path d="M96 50V74L103 68L110 74V50H96Z" fill="#F59E0B"/>
+
+    <!-- Content / Knowledge Lines -->
+    <rect x="68" y="60" width="22" height="5" rx="2.5" fill="#10B981"/>
+    <rect x="68" y="72" width="44" height="4" rx="2" fill="#6EE7B7"/>
+    <rect x="68" y="82" width="44" height="4" rx="2" fill="#6EE7B7"/>
+    <rect x="68" y="92" width="34" height="4" rx="2" fill="#6EE7B7"/>
+    <rect x="68" y="102" width="38" height="4" rx="2" fill="#6EE7B7"/>
+
+    <!-- Digital Star Accent -->
+    <circle cx="110" cy="114" r="3.5" fill="#10B981"/>
+  </g>
+</svg>

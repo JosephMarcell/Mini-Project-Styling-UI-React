@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176" fill="none">
+  <defs>
+    <linearGradient id="cat-cd-bg" x1="0" y1="0" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="cat-cd-drop" x="34" y="34" width="108" height="114" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#1E3A8A" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Full 176x176 Square Canvas -->
+  <rect width="176" height="176" rx="24" fill="url(#cat-cd-bg)"/>
+  <rect x="1" y="1" width="174" height="174" rx="23" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- Centered Icon (cx=88, cy=88) -->
+  <g filter="url(#cat-cd-drop)">
+    <!-- Terminal Window Body -->
+    <rect x="44" y="44" width="88" height="88" rx="12" fill="#0F172A"/>
+
+    <!-- Terminal Header Bar -->
+    <path d="M44 54C44 48.4772 48.4772 44 54 44H122C127.523 44 132 48.4772 132 54V58H44V54Z" fill="#1E293B"/>
+    <!-- Control Dots -->
+    <circle cx="56" cy="51" r="3" fill="#EF4444"/>
+    <circle cx="65" cy="51" r="3" fill="#F59E0B"/>
+    <circle cx="74" cy="51" r="3" fill="#10B981"/>
+
+    <!-- Glowing Code Brackets < / > -->
+    <path d="M66 76L54 88L66 100" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110 76L122 88L110 100" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="93" y1="72" x2="83" y2="104" stroke="#94A3B8" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Mini Code Indicator Lines at Bottom -->
+    <rect x="58" y="112" width="26" height="4" rx="2" fill="#38BDF8" fill-opacity="0.8"/>
+    <rect x="88" y="112" width="30" height="4" rx="2" fill="#475569"/>
+  </g>
+</svg>
