@@ -24,3 +24,8 @@ npm run build
 ## Poin feedback dari Mas Fariz
 
 1. Jadikan gambar sebagai props
+
+## Penggunaan AI
+
+- Generate assets
+- Pembuatan README
