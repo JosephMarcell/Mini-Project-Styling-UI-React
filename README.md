@@ -20,3 +20,7 @@ npm run build
 - `src/components/` berisi komponen UI (Header, Hero, ItemSection, FeaturedProduct, Footer).
 - `src/data/marketplace.js` berisi semua teks dan data produk. Ubah isi produk di sini.
 - `public/assets/` berisi gambar dan ikon.
+
+## Poin feedback dari Mas Fariz
+
+1. Jadikan gambar sebagai props

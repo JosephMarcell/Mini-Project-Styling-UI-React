@@ -21,6 +21,7 @@ function App() {
         <Hero
           title="Find the Digital Products You Need"
           description= "E-books, templates, source code, UI kits, and presets in one place."
+          image="/assets/hero-img.jpg"
         />
 
         <ItemSection id= "categories" title="Categories" items={categories} className="mb-12" />
